@@ -1,0 +1,32 @@
+
+<html>  
+    <head>  
+    <title>home</title>  
+    </head>  
+    <body>   
+    <h1>Bienvenid@ a la pagina web de Luis Miguel Moreno</h1>  
+    <h2>Computación en Red</h2> 
+    <!-- <h3>{{ num_aleat }}</h3>-->
+    
+    <a href = "/register"><button>Registrar</button></a><br>
+    <a href = "/login"><button>Log In</button></a><br>
+    <a href = "/logout"><button>Log Out</button></a><br>
+
+    <h3>Usuario: {{ user }}</h3>
+
+    <a href = "/anadir">Añadir numero a las bases de datos</a><br>
+    <h3>El ultimo numero añadido es {{ num_aleat }}</h3>
+
+    <!-- <a href = "/elastic">Calcular la media usando Elastic</a><br> -->
+    <a href = "/elastic"><button>Calcular media con ElasticSearch</button></a><br> 
+
+    <a href = "/beebotte"><button>Calcular media con Beebotte</button></a><br>
+    
+    <h3>La media calculada en la base de datos de ElasticSearch es: {{ media_es }}</h3>
+    <!-- <a href = "/beebotte">Calcular la media usando Beebotte</a><br> -->
+    <h3>La media calculada en la base de datos de Beebotte es: {{ media_bbt }}</h3>
+
+    <a href = "/graphic"><button>Gráficas de Beebotte</button></a><br>
+
+    </body>  
+</html> 
